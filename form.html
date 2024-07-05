@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student List</title>
+  <link rel='stylesheet' href='style.css'>
+  </head>
+<body>
+
+  <form id="myform">
+    <label for="firstname">First Name: </label> <br>
+    <input type="text" id="firstname" name="firstname"> <br><br>
+    <label for="lastname">Last Name: </label> <br>
+    <input type="text" id="lastname" name="lastname"> <br><br>
+    <label for="email">Email Address: </label> <br>
+    <input type="text" id="email" name="email"><br><br>
+    <button type="button" id="submit">Submit</button> 
+    <input type = "submit"  onclick="add()" value="Add New">
+    
+    </form>
+    
+    <table id="studentlist">
+      <thead>
+          <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email Address</th>
+              <th>Actions
+              </th>
+          </tr>
+      </thead>
+      <tbody id="tablebody"></tbody>
+  </table>
+
+  
+  <script src='script.js'></script>
+
+</body>
+</html>
