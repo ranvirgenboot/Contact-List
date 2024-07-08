@@ -1,0 +1,105 @@
+
+body {
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the index page */
+body.index {
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.DmjeB8vlvKxzfyU4Dr92LQHaDA&pid=Api&P=0&h=220");
+  background-color: #c1c5c5; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+/* Style for the form page */
+body.form {
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.09hlTvst0mR7xaKAAue91gHaEu&pid=Api&P=0&h=220");
+  background-color: #c1c5c5;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+} 
+
+
+form {
+    background-color: #bcbfc2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(173, 167, 167, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+form input[type="text"],
+form input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+table button {
+    padding: 5px 10px;
+    background-color: #5b9df5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #c2e3f2;
+}
+
+
